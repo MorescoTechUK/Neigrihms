@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "neigrihms_websites",
+  "info": {
+    "singularName": "neigrihms-website",
+    "pluralName": "neigrihms-websites",
+    "displayName": "Neigrihms-Website"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mainImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "options": {
+      "type": "json"
+    },
+    "specialities": {
+      "type": "json"
+    },
+    "topWidgets": {
+      "type": "json"
+    }
+  }
+}
